@@ -15,11 +15,12 @@ Plex Media Server running inside docker
 
 ### Usage
 
-##### Start a plex media server by running the following command and then visit http://localhost:32400/web on a browser
+##### Start a plex media server.
+Run the following command and then visit http://localhost:32400/web on a browser
 
 `docker run -it -p 32400:32400 ekiourk/plex`
 
-##### If you want to use your local media library and keep the configuration of plex between restarts do the following
+##### Use local media library and persist plex configuration
 1. Go to the directory where your media files are located.
 
 2. Run `docker run -it -d --net="host" -p 32400:32400 -v /docker-plex:/Library -v $PWD:/data ekiourk/plex`
