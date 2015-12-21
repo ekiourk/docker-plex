@@ -1,6 +1,8 @@
 # docker-plex
 Plex Media Server running inside docker
 
+[![](https://badge.imagelayers.io/ekiourk/plex:latest.svg)](https://imagelayers.io/?images=ekiourk/plex:latest 'Get your own badge on imagelayers.io')
+
 ### Base Docker Image
 
 * [ubuntu:14:04](https://registry.hub.docker.com/u/library/ubuntu/)
